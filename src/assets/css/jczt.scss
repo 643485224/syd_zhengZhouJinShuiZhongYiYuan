@@ -1,0 +1,550 @@
+@mixin jcztp {
+    .jczt_p {
+        font-size: 19px;
+        margin-left: 60px;
+        height: 40px;
+        line-height: 40px;
+        margin-bottom: 10px;
+        font-weight: 600;
+        color: #005197;
+
+    }
+
+    .jczt_p::before {
+        content: '';
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 40px;
+        height: 40px;
+        // background-image: url(../../assets/imgs/f92fca28bae93bb28448bab0abc972e.png);
+        background-image: url(../../assets/imgs/72999048bb23f3b5643e683ebe845a9.png);
+        background-size: 40px 40px;
+        // background: no-repeat;
+    }
+}
+
+
+.jczt {
+    height: 383px;
+
+    .jczt-left {
+        width: 360px;
+
+        h3 {
+            font-size: 18px;
+            line-height: 30px;
+            border-bottom: #338dc2 3px solid;
+            color: #338dc2;
+        }
+
+        ul {
+            width: 360px;
+            height: 350px;
+            background: #f2f9f7;
+            overflow: hidden;
+
+            li {
+                width: 160px;
+                height: 160px;
+
+                p {
+                    height: 25px;
+                    // background: url(http://www.zzsetyy.cn/skin/1/etyy_bg3.jpg) repeat-x;
+                    background: #005197;
+                    // background: #57afd5;
+                    line-height: 25px;
+                    text-align: center;
+                    font-size: 12px;
+                    color: #fff;
+                }
+
+            }
+
+            li:hover {
+                p {
+                    background: #57afd5;
+                }
+            }
+        }
+    }
+
+    .jczt-right {
+        width: 820px;
+
+        .jczt-ul {
+            height: 100%;
+            overflow: hidden;
+
+
+            // padding: 10px;
+            // box-sizing: border-box;
+
+            .jczt-li {
+                width: 100%;
+                height: 47%;
+                // background: #fff;
+
+                div:nth-child(1) {
+                    width: 30%;
+                    overflow: hidden;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        transition: all 0.6s;
+                    }
+
+                    img:hover {
+                        transform: scale(1.3);
+                    }
+                }
+
+                div:nth-child(2) {
+                    position: relative;
+                    width: 65%;
+                    background-color: aliceblue;
+                    padding: 5px;
+                    box-sizing: border-box;
+
+                    h3 {
+                        color: #005197;
+                    }
+
+                    ul {
+                        li {
+                            p {
+                                width: 100%;
+
+                                a {
+                                    display: block;
+                                    width: 80%;
+                                    color: #888;
+                                    white-space: nowrap;
+                                    overflow: hidden;
+                                    text-overflow: ellipsis;
+                                }
+
+                                span {
+                                    width: 20%;
+                                    text-align: center;
+                                    color: #888;
+                                    float: right;
+                                    font-size: 15px;
+                                }
+                            }
+
+                            p:hover {
+
+                                a,
+                                span {
+                                    color: cornflowerblue;
+
+                                }
+                            }
+                        }
+                    }
+
+                    // .more {
+                    //     display: block;
+                    //     width: 130px;
+                    //     height: 30px;
+                    //     // background: cornflowerblue;
+                    //     background: #005197;
+                    //     text-align: center;
+                    //     line-height: 30px;
+                    //     color: #fff;
+                    // }
+                }
+            }
+
+
+
+            .li_top {
+                width: 100%;
+                height: 51%;
+                // max-height: 49%;
+                // background: #FEE5FC;
+                // padding: 5px;
+                // box-sizing: border-box;
+                // margin-bottom: 1%;
+
+                .more1 {
+                    position: absolute;
+                    display: block;
+                    width: 130px;
+                    height: 30px;
+                    // background: cornflowerblue;
+                    background: #005197;
+                    text-align: center;
+                    line-height: 30px;
+                    color: #fff;
+                }
+
+
+
+                .li_top_one {
+                    width: 100%;
+                    // background: #FEE5FC;
+                    background: azure;
+                    padding: 8px;
+                    box-sizing: border-box;
+
+                    div:nth-child(2) {
+                        height: 100%;
+                        position: relative;
+                        @include jcztp;
+
+                        .jczt_p::before {
+                            background-image: url(../../assets/imgs/94ad728db3e6ac7b287d3690839f972.png);
+                        }
+
+
+
+                        ul {
+                            li {
+
+                                p {
+                                    width: 100%;
+
+                                    a {
+                                        display: block;
+                                        width: 85%;
+                                        color: #888;
+                                        white-space: nowrap;
+                                        font-size: 18px;
+                                        overflow: hidden;
+                                        text-overflow: ellipsis;
+                                    }
+
+                                    span {
+                                        width: 15%;
+                                        text-align: center;
+                                        color: #888;
+                                        font-size: 18px;
+                                        float: right;
+                                        font-size: 15px;
+                                    }
+                                }
+
+                                p:hover {
+
+                                    a,
+                                    span {
+                                        color: cornflowerblue;
+                                    }
+                                }
+                            }
+                        }
+
+                        .more2 {
+                            position: absolute;
+                            display: block;
+                            width: 130px;
+                            height: 30px;
+                            // background: cornflowerblue;
+                            background: #005197;
+                            text-align: center;
+                            line-height: 30px;
+                            color: #fff;
+                        }
+
+
+
+                        .son-bootm-right {
+                            right: 0px;
+                            bottom: 0px;
+                        }
+
+                        .son-bootm-right:hover {
+                            background: #57afd5;
+                        }
+                    }
+                }
+
+                // .li_top_two {
+                //     width: 49%;
+                //     // background: #FEE5FC;
+                //     background: azure;
+                //     // background: #fff;
+
+                //     padding: 8px;
+                //     box-sizing: border-box;
+
+                //     div:nth-child(2) {
+                //         height: 100%;
+                //         position: relative;
+                //         @include jcztp;
+
+
+
+                //         // .jczt_p {
+                //         //     font-size: 19px;
+                //         //     margin-left: 40px;
+                //         //     height: 40px;
+                //         //     line-height: 40px;
+                //         // }
+
+                //         // .jczt_p::before {
+                //         //     content: '';
+                //         //     position: absolute;
+                //         //     top: 0px;
+                //         //     left: 0px;
+                //         //     width: 40px;
+                //         //     height: 40px;
+                //         //     background-image: url(../../assets/imgs/biaoti.png);
+                //         //     background-size: 40px 40px;
+
+                //         // }
+
+                //         ul {
+                //             li {
+                //                 p {
+                //                     width: 100%;
+
+                //                     a {
+                //                         display: block;
+                //                         width: 70%;
+                //                         color: #888;
+                //                         font-size: 18px;
+                //                         white-space: nowrap;
+                //                         overflow: hidden;
+                //                         text-overflow: ellipsis;
+                //                     }
+
+                //                     span {
+                //                         width: 30%;
+                //                         text-align: center;
+                //                         color: #888;
+                //                         font-size: 18px;
+                //                         float: right;
+                //                         font-size: 15px;
+                //                     }
+                //                 }
+
+                //                 p:hover {
+
+                //                     a,
+                //                     span {
+                //                         color: cornflowerblue;
+                //                     }
+                //                 }
+                //             }
+                //         }
+
+                //         .more2 {
+                //             position: absolute;
+                //             display: block;
+                //             width: 130px;
+                //             height: 30px;
+                //             // background: cornflowerblue;
+                //             background: #005197;
+                //             text-align: center;
+                //             line-height: 30px;
+                //             color: #fff;
+                //         }
+
+
+                //         .son-bootm-right {
+                //             right: 0px;
+                //             bottom: 0px;
+                //         }
+
+                //         .son-bootm-right:hover {
+                //             background: #57afd5;
+                //         }
+                //     }
+                // }
+            }
+
+            .li_bottom {
+                width: 100%;
+                height: 49%;
+                padding: 5px;
+                background: #fdf6ec;
+                box-sizing: border-box;
+
+                .li_bottom_p {
+                    position: relative;
+                    width: 100%;
+                    height: 19%;
+                    // margin-bottom: 1% 0%;
+                    color: #055196;
+                    text-align: center;
+                    font-size: 30px;
+                    font-family: KaiTi;
+                    font-weight: bold;
+                    // background: #57afd5;
+                    // background: #f2f9f7;
+                    // background: azure;
+                    // -webkit-text-stroke-width: 1px;
+                    // -webkit-text-stroke-color: #fff;
+                    // -webkit-text-fill-color: #005197;
+                }
+
+                .li_bottom_p::before {
+                    content: '';
+                    position: absolute;
+                    top: 0px;
+                    left: 120px;
+                    width: 30px;
+                    height: 30px;
+                    background-image: url(../../assets/imgs/3dd2bed26ad9534346cbc9dca78c4a1.png);
+                    background-size: 30px 30px;
+                    // background: no-repeat;
+
+                }
+
+                .li_bottom_ul {
+                    width: 100%;
+                    height: 80%;
+
+                    li {
+                        width: 49%;
+                        height: 48%;
+                        background: #fff;
+                        border: #6fa9c4 2px solid;
+                        font-size: 16px;
+                        box-sizing: border-box;
+
+                        a {
+                            width: 100%;
+                            height: 100%;
+                            display: block;
+                            position: relative;
+                            display: flex;
+                            align-items: center;
+                            color: #005197;
+
+
+                            span:nth-child(1) {
+                                width: 10%;
+                                position: absolute;
+                                right: 10px;
+                                top: 35%;
+                                background: #57AFD5;
+                                text-align: center;
+                                border-radius: 20px;
+                                color: #fff;
+                            }
+
+                            span:nth-child(1):hover {
+                                background: #005197;
+                                color: #fff;
+                                transform: 0.2s;
+                            }
+
+
+                            p {
+                                width: 25%;
+                                height: 100%;
+
+                                img {
+                                    width: 100%;
+                                    height: 100%;
+                                    object-fit: cover;
+                                }
+                            }
+
+                            .li_bottom_ul_p {
+                                width: 60%;
+                                margin-left: 3%;
+                                justify-content: center;
+                                display: flex;
+                                align-items: center;
+
+                            }
+
+                        }
+
+                        a:hover {
+                            background: #c3dfeb;
+                        }
+                    }
+
+
+                }
+            }
+        }
+    }
+}
+
+.characteristic {
+    width: 100%;
+
+    div {
+        position: relative;
+        width: 1200px;
+
+        h3 {
+            width: 200px;
+            font-size: 18px;
+            line-height: 30px;
+            border-bottom: #338dc2 3px solid;
+            color: #338dc2;
+        }
+
+        ul {
+            width: 100%;
+
+            overflow: hidden;
+
+            li {
+                width: 18%;
+                height: 80px;
+
+                line-height: 80px;
+                text-align: center;
+                margin: 1% 1%;
+                box-shadow: 0px 0px 3px #888;
+
+                div {
+                    width: 30%;
+                    height: 100%;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+
+                a {
+                    display: block;
+                    width: 70%;
+                    height: 100%;
+                    font: -moz-small-control;
+                    font: -o-small-control;
+                    font: -webkit-small-control;
+                    font: initial;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 17px;
+
+                    color: #000;
+                }
+            }
+
+            li:hover {
+                box-shadow: 0px 0px 10px #888;
+            }
+        }
+
+        .charP {
+            display: block;
+            width: 130px;
+            height: 30px;
+            // background: cornflowerblue;
+            background: #005197;
+            text-align: center;
+            line-height: 30px;
+            color: #fff;
+            float: right;
+        }
+
+        .charP:hover {
+            background: #57afd5;
+        }
+    }
+}

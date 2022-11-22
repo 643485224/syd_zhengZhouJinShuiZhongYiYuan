@@ -1,0 +1,456 @@
+* {
+	margin: 0%;
+	padding: 0%;
+}
+
+li,
+ol,
+a {
+	list-style: none;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+.w220 {
+	width: 220px;
+}
+
+.w250 {
+	width: 250px;
+}
+
+.w1200 {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.h20 {
+	height: 20px;
+}
+
+.h200 {
+	height: 200px;
+}
+
+.snow-div {
+	display: none;
+}
+
+.QMSub {
+	width: 500px;
+	padding: 10px;
+	box-sizing: border-box;
+
+	li {
+		height: 74px;
+		background: url(../imgs/ico_004.png) 18px center no-repeat;
+		font-size: 14px;
+
+		a {
+			position: relative;
+			display: block;
+			padding-left: 38px;
+			line-height: 74px;
+			font-size: 16px;
+			color: #555555;
+			font-weight: 500;
+
+			span {
+				display: none;
+			}
+		}
+
+		a:hover {
+			box-shadow: 0px 8px 15px rgb(128 128 128 / 25%);
+			color: #ff7544;
+
+			span {
+				position: absolute;
+				top: 25px;
+				right: 20px;
+				display: block;
+				background: #ff7544;
+				font-size: 12px;
+				color: #fff;
+				border-radius: 2px;
+				padding: 0px 15px;
+				line-height: 24px;
+				text-align: center;
+				box-sizing: border-box;
+			}
+		}
+	}
+}
+
+.QMSub2 {
+	width: 500px;
+	padding: 10px;
+	box-sizing: border-box;
+
+	li {
+		height: 74px;
+		background: url(../imgs/ico_004.png) 18px center no-repeat;
+		font-size: 14px;
+
+		a {
+			position: relative;
+			display: block;
+			padding-left: 38px;
+			line-height: 74px;
+			font-size: 16px;
+			font-weight: 500;
+			color: #555555;
+		}
+
+		a:hover {
+			box-shadow: 0px 8px 15px rgb(128 128 128 / 25%);
+			color: #ff7544;
+		}
+	}
+}
+
+.icon {
+	width: 3px;
+	height: 3px;
+	display: block;
+	border-radius: 3px;
+	background: #5ba8e0;
+	// color: #5ba8e0;
+	float: left;
+	margin: 18px 5px 0px 5px;
+}
+
+.firstA {
+	position: relative;
+	display: block;
+	line-height: 60px;
+	text-indent: 58px;
+	font-size: 14px;
+	color: #333;
+	background: url('../imgs/ico_016a.png') right center no-repeat;
+
+	em {
+		border-bottom: 1px solid #ebebeb;
+		display: block;
+		margin: 0px 45px;
+		font-style: normal;
+		font-size: 16px;
+		color: #555555;
+		font-weight: 600;
+		font-family: '微软雅黑';
+		transition: border-bottom 0.28s linear;
+	}
+
+	.style01 {
+		position: absolute;
+		left: 35px;
+		top: 18px;
+		z-index: 102;
+		width: 30px;
+		height: 30px;
+		background: #fff url('../imgs/HomeSprite.png') center no-repeat;
+	}
+
+	.bg1 {
+		background-position: 0px 2px;
+		background-size: 30px;
+	}
+
+	.bg2 {
+		background-position: 0px -38px;
+		background-size: 30px;
+	}
+
+	.bg3 {
+		background-position: 0px -75px;
+		background-size: 30px;
+	}
+
+	.bg4 {
+		background-position: 0px -110px;
+		background-size: 30px;
+	}
+
+	.bg5 {
+		background-position: 0px -150px;
+		background-size: 30px;
+	}
+
+	.bg6 {
+		background-position: 0px -185px;
+		background-size: 30px;
+	}
+
+	.bg7 {
+		background-position: 0px -225px;
+		background-size: 30px;
+	}
+}
+
+.firstA:hover {
+	background: #005197 url('../imgs/ico_016b.png') right center no-repeat;
+	text-indent: 68px;
+	color: #fff;
+	box-shadow: 0px 6px 12px rgb(0 0 0 / 15%);
+
+	em {
+		color: #FFF;
+		border-bottom: 1px solid #005197;
+	}
+
+	.style01 {
+		top: 11px;
+		width: 40px;
+		height: 40px;
+		color: #fff;
+		border-radius: 30px;
+		animation: example 0.5s ease 0s 1;
+	}
+
+	.bg1 {
+		background-position: 6px 7px;
+		background-size: 30px;
+	}
+
+	.bg2 {
+		background-position: 6px -33px;
+		background-size: 30px;
+	}
+
+	.bg3 {
+		background-position: 6px -70px;
+		background-size: 30px;
+	}
+
+	.bg4 {
+		background-position: 6px -105px;
+		background-size: 30px;
+	}
+
+	.bg5 {
+		background-position: 6px -145px;
+		background-size: 30px;
+	}
+
+	.bg6 {
+		background-position: 6px -180px;
+		background-size: 30px;
+	}
+
+	.bg7 {
+		background-position: 6px -220px;
+		background-size: 30px;
+	}
+}
+
+@keyframes example {
+	0% {
+		width: 40px;
+		height: 40px;
+	}
+
+	25% {
+		width: 41px;
+		height: 41px;
+	}
+
+	50% {
+		width: 42px;
+		height: 42px;
+	}
+
+	75% {
+		width: 41px;
+		height: 41px;
+	}
+
+	100% {
+		width: 40px;
+		height: 40px;
+	}
+}
+
+
+/** Element UI CSS**/
+.el-carousel {
+	width: 100%;
+	height: 100%;
+
+	.el-carousel__container {
+		width: 100%;
+		height: 100%;
+	}
+}
+
+.el-form-item {
+	margin: 0;
+}
+
+.el-carousel__indicator.is-active button {
+	opacity: 1;
+	background: #01b9b7;
+}
+
+.el-carousel__button {
+	display: block;
+	opacity: 1;
+	width: 14px;
+	height: 14px;
+	background-color: #fff;
+	border: none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	cursor: pointer;
+	transition: 0.3s;
+	border-radius: 67px;
+}
+
+.el-popper {
+	margin-top: 0px !important;
+}
+
+// .organ {
+// 	.el-collapse-item__header {
+// 		// font-size: 16px;
+// 		// color: #01b9b7;
+// 	}
+// }
+
+.loading {
+	width: 100%;
+	height: 200px;
+}
+
+.demo-ruleForm {
+
+	.el-form-item {
+		.el-form-item__label {
+			height: 25px;
+			line-height: 25px;
+			font-size: 10px;
+		}
+
+		.el-form-item__content {
+			font-size: 10px;
+			height: 25px;
+			line-height: 25px;
+		}
+	}
+}
+
+.each_collapse {
+	.el-collapse-item__header {
+		font-size: 16px;
+	}
+
+	.el-collapse-item__header:hover {
+		color: cornflowerblue;
+	}
+}
+
+.p_department_divider {
+	margin: 0px 0px;
+}
+
+.active_div {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 50px;
+
+	.active_form {
+		width: 490px;
+		padding: 40px 120px;
+		border-radius: 10px;
+		border: 1px solid #005197;
+		box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.3);
+
+		.el-form-item {
+			margin-bottom: 25px;
+
+			.el-input {
+				font-size: 18px;
+			}
+
+			.el-form-item__label {
+				font-size: 23px;
+				color: #555;
+			}
+
+			.active_row {
+				.el-col-14 {
+					padding-left: 0px !important;
+				}
+
+				.el-col-8 {
+
+					padding-right: 0px !important;
+
+					div {
+						width: 114px;
+						height: 40px;
+
+					}
+				}
+			}
+		}
+
+		.active_form_radio {
+			.el-radio__inner {
+				width: 30px;
+				height: 30px;
+				color: #005197;
+			}
+
+			.el-radio__input.is-checked .el-radio__inner {
+				border-color: #005197;
+				background: #005197;
+			}
+
+
+
+			.el-radio__label {
+				font-size: 20px;
+				font-weight: bold;
+				color: #555555;
+
+			}
+		}
+	}
+}
+
+//底部css
+.demo-ruleForm {
+	.el-form-item {
+		.el-form-item__label {
+			font-size: 13px;
+
+		}
+	}
+
+	.el-form-item {
+		.el-form-item__content {
+			font-size: 13px;
+		}
+	}
+
+
+	.el-form-item:nth-child(1) {
+		position: absolute;
+		top: 0%;
+		left: 35%;
+	}
+
+	.el-form-item:nth-child(3) {
+		position: absolute;
+		top: 25px;
+		left: 35%;
+	}
+
+	.el-form-item:last-child {
+		position: absolute;
+		bottom: 0%;
+		left: 35%;
+		margin-top: 10px;
+	}
+}
